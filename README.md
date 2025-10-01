@@ -1,41 +1,41 @@
-# Graph Clustering & Data Mining Analysis  
+# Graph Clustering & Data Mining Analysis   
 
 ## Abstract 📄  
 
-<span id="span_1">This project explores **graph clustering and data mining** techniques with practical demonstrations.</span> <span id="span_2">It combines a **presentation on graph clustering methods** with a **Jupyter Notebook** that implements and evaluates related approaches.</span> <span id="span_3">Our primary focus is on community detection in networks and algorithmic comparisons for clustering.</span>  
+This project explores **graph clustering and data mining** techniques with practical demonstrations. It combines a **presentation on graph clustering methods** with a **Jupyter Notebook** that implements and evaluates related approaches. Our primary focus is on community detection in networks and algorithmic comparisons for clustering.  
 
-**<span id="span_4">Keywords</span>**: Graph Clustering, Girvan-Newman, Louvain Algorithm, Community Detection, Data Mining  
+**Keywords**: Graph Clustering, Girvan-Newman, Louvain Algorithm, Community Detection, Data Mining  
 
 ---
 
 ## Table of Contents 📋  
 
-* [Introduction](#introduction-)  
-* [Graph Clustering & Community Detection](#graph-clustering--community-detection-)  
-* [Girvan-Newman Algorithm](#girvan-newman-algorithm-)  
-* [Louvain Algorithm](#louvain-algorithm-)  
-* [Comparison & Applications](#comparison--applications-)  
-* [Advantages & Disadvantages](#advantages--disadvantages-)  
-* [Notebook Implementation](#notebook-implementation-)  
-* [Conclusion & Future Work](#conclusion--future-work-)  
-* [References](#references-)  
+* [Introduction](#introduction-💡)  
+* [Graph Clustering & Community Detection](#graph-clustering--community-detection-🕸️)  
+* [Girvan-Newman Algorithm](#girvan-newman-algorithm-🔍)  
+* [Louvain Algorithm](#louvain-algorithm-⚡)  
+* [Comparison & Applications](#comparison--applications-📊)  
+* [Advantages & Disadvantages](#advantages--disadvantages-⚖️)  
+* [Notebook Implementation](#notebook-implementation-💻)  
+* [Conclusion & Future Work](#conclusion--future-work-🏁)  
+* [References](#references-📚)  
 
 ---
 
 ## Introduction 💡  
 
-<span id="span_5">Graph clustering, also known as **community detection**, is the process of identifying tightly connected groups of nodes within a graph.</span> <span id="span_6">This process improves visualization and understanding of complex networks.</span>  
+Graph clustering, also known as **community detection**, is the process of identifying tightly connected groups of nodes within a graph. This process improves visualization and understanding of complex networks.  
 
 ### Applications  
-- <span id="span_7">**Social Networks**: Detecting user communities</span>  
-- <span id="span_8">**Biological Networks**: Identifying functional gene/protein modules</span>  
-- <span id="span_9">**Marketing**: Segmenting customer groups</span>  
+- **Social Networks**: Detecting user communities  
+- **Biological Networks**: Identifying functional gene/protein modules  
+- **Marketing**: Segmenting customer groups  
 
 ---
 
 ## Graph Clustering & Community Detection 🕸️  
 
-<span id="span_10">In networks, communities are subgroups with dense internal links and sparse external connections.</span> <span id="span_11">Community detection is crucial for understanding hidden structures.</span>  
+In networks, communities are subgroups with dense internal links and sparse external connections. Community detection is crucial for understanding hidden structures.  
 
 ---
 
@@ -68,7 +68,7 @@ Applied on a sample network with nodes **A–F**, resulting in multiple communit
 ## Louvain Algorithm ⚡  
 
 ### Overview  
-<span id="span_20">The Louvain method optimizes **modularity** to find communities efficiently, especially in large networks.</span>  
+The Louvain method optimizes **modularity** to find communities efficiently, especially in large networks.  
 
 ### Steps  
 1. **Local Modularity Optimization** – move nodes between communities for max modularity.  
@@ -103,22 +103,24 @@ Q = \frac{1}{2m} \sum_{ij} \Big[ A_{ij} - \frac{k_i k_j}{2m} \Big] \delta(c_i, c
 - ❌ May produce different results depending on initialization  
 
 ---
+
 ## Notebook Implementation 💻  
 
 Explore implementation in the provided **Jupyter Notebook**:  
 
-* [Girvan-Newman-and-Louvain-algorithms.ipynb](Girvan-Newman-and-Louvain-algorithms.ipynb)  
+* [Girvan-Newman-and-Louvain-algorithms.ipynb](https://github.com/elahehmood/Graph-Clustering-and-Data-Mining-Analysis-/blob/main/Girvan-Newman-and-Louvain-algorithms.ipynb)  
 
 ### Run Online 🚀  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elahehmood/-Graph-Clustering-and-Data-Mining-Analysis-/blob/main/Girvan-Newman-and-Louvain-algorithms.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elahehmood/Graph-Clustering-and-Data-Mining-Analysis-/blob/main/Girvan-Newman-and-Louvain-algorithms.ipynb)  
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/elahehmood/-Graph-Clustering-and-Data-Mining-Analysis-/HEAD?labpath=Girvan-Newman-and-Louvain-algorithms.ipynb)  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/elahehmood/Graph-Clustering-and-Data-Mining-Analysis-/HEAD?labpath=Girvan-Newman-and-Louvain-algorithms.ipynb)  
+
 ---
 
 ## Conclusion & Future Work 🏁  
 
 ### Conclusion  
-<span id="span_30">Both Girvan-Newman and Louvain algorithms are effective, but Louvain is preferred for large-scale, real-world networks due to its efficiency.</span>  
+Both Girvan-Newman and Louvain algorithms are effective, but Louvain is preferred for large-scale, real-world networks due to its efficiency.  
 
 ### Future Work  
 - Extend analysis to **dynamic networks**  
