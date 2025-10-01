@@ -108,12 +108,12 @@ Q = \frac{1}{2m} \sum_{ij} \Big[ A_{ij} - \frac{k_i k_j}{2m} \Big] \delta(c_i, c
 
 Explore implementation in the provided **Jupyter Notebook**:  
 
-* [Girvan-Newman-and-Louvain-algorithms.ipynb](https://github.com/elahehmood/Graph-Clustering-and-Data-Mining-Analysis-/blob/main/Girvan-Newman-and-Louvain-algorithms.ipynb)  
+* [Girvan-Newman-and-Louvain-algorithms.ipynb](https://github.com/elahehmood/Graph-Clustering-and-Data-Mining-Analysis/blob/main/Girvan-Newman-and-Louvain-algorithms.ipynb)  
 
 ### Run Online 🚀  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elahehmood/Graph-Clustering-and-Data-Mining-Analysis-/blob/main/Girvan-Newman-and-Louvain-algorithms.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elahehmood/Graph-Clustering-and-Data-Mining-Analysis/blob/main/Girvan-Newman-and-Louvain-algorithms.ipynb)  
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/elahehmood/Graph-Clustering-and-Data-Mining-Analysis-/HEAD?labpath=Girvan-Newman-and-Louvain-algorithms.ipynb)  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/elahehmood/Graph-Clustering-and-Data-Mining-Analysis/HEAD?labpath=Girvan-Newman-and-Louvain-algorithms.ipynb)  
 
 ---
 
