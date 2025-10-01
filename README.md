@@ -26,8 +26,6 @@
 
 <span id="span_5">Graph clustering, also known as **community detection**, is the process of identifying tightly connected groups of nodes within a graph.</span> <span id="span_6">This process improves visualization and understanding of complex networks.</span>  
 
-![Graph Clustering Overview](images/graph_clustering_intro.png)  
-
 ### Applications  
 - <span id="span_7">**Social Networks**: Detecting user communities</span>  
 - <span id="span_8">**Biological Networks**: Identifying functional gene/protein modules</span>  
@@ -38,8 +36,6 @@
 ## Graph Clustering & Community Detection 🕸️  
 
 <span id="span_10">In networks, communities are subgroups with dense internal links and sparse external connections.</span> <span id="span_11">Community detection is crucial for understanding hidden structures.</span>  
-
-![Community Detection Example](images/community_detection.png)  
 
 ---
 
@@ -55,7 +51,8 @@
 2. Remove edge with highest betweenness.  
 3. Recalculate and repeat.  
 
-![Girvan-Newman Example](images/girvan_newman_example.png)  
+### Example  
+Applied on a sample network with nodes **A–F**, resulting in multiple community splits.  
 
 ### Advantages  
 - Suitable for **small/medium graphs**  
@@ -73,14 +70,14 @@
 ### Overview  
 <span id="span_20">The Louvain method optimizes **modularity** to find communities efficiently, especially in large networks.</span>  
 
-![Louvain Algorithm Steps](images/louvain_steps.png)  
+### Steps  
+1. **Local Modularity Optimization** – move nodes between communities for max modularity.  
+2. **Community Aggregation** – merge nodes into super-nodes, repeat process hierarchically.  
 
 ### Formula for Modularity  
 \[
 Q = \frac{1}{2m} \sum_{ij} \Big[ A_{ij} - \frac{k_i k_j}{2m} \Big] \delta(c_i, c_j)
 \]  
-
-![Modularity Formula](images/modularity_formula.png)  
 
 ---
 
@@ -92,8 +89,6 @@ Q = \frac{1}{2m} \sum_{ij} \Big[ A_{ij} - \frac{k_i k_j}{2m} \Big] \delta(c_i, c
 | **Accuracy**             | Medium                        | High                        |  
 | **Complexity**           | High                          | Low                         |  
 | **Use Case**             | Teaching, small networks      | Real-world large networks   |  
-
-![Comparison Chart](images/comparison_chart.png)  
 
 ---
 
@@ -113,7 +108,7 @@ Q = \frac{1}{2m} \sum_{ij} \Big[ A_{ij} - \frac{k_i k_j}{2m} \Big] \delta(c_i, c
 
 Explore implementation in the provided **Jupyter Notebook**:  
 
-* [DM_presentation.ipynb](DM_presentation.ipynb)  
+* [ Girvan-Newman and Louvain algorithms.ipynb](Girvan-Newman-and-Louvain-algorithms.ipynb)  
 
 ### Run Online 🚀  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AY95P4Wtvb1REbJbbUneiS)  
@@ -135,5 +130,5 @@ Explore implementation in the provided **Jupyter Notebook**:
 ## References 📚  
 
 * Girvan, M., & Newman, M. E. J. (2002). *Community structure in social and biological networks.* PNAS.  
-* Blondel, V. D., Guillaume, J. L., Lambiotte, R., & Lefebvre, R. (2008). *Fast unfolding of communities in large networks.* J. of Statistical Mechanics.  
+* Blondel, V. D., Guillaume, J. L., Lambiotte, R., & Lefebvre, E. (2008). *Fast unfolding of communities in large networks.* J. of Statistical Mechanics.  
 * Fortunato, S. (2010). *Community detection in graphs.* Physics Reports.  
